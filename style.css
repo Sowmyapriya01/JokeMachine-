@@ -1,0 +1,62 @@
+/* Its applicable to HTML Body*/
+body{
+    min-height: 100vh;
+    background-color: green;
+    font-family: sans-serif;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Its applicable to id in body div */
+
+#app{
+    width: 800px;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-rows: 30%;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* Linked with h1 tag */
+h1{
+    text-align: center;
+    color: black;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-gap: 15px;
+}
+#joke{
+    background-color: aliceblue;
+    display: grid;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    align-content: center;
+    border-radius: 15px;
+    color: black;
+}
+button{
+    top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 4px;
+}
+
+#joke-btn{
+    font-size: 4rem;
+    background-color: bisque;
+    border: 2px solid blue;
+}
+
+#speak-btn{
+    font-size: 1.1rem;
+    background-color: rosybrown;
+    border: 2px solid rosybrown;
+}
